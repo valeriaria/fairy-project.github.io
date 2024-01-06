@@ -1,2 +1,2 @@
-# fairy-project.github.io
-Aesthetic weather, clock and calendar 
+# project
+fairy weather time and calendar for your laptop

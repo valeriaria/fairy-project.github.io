@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fairy Weather</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <navbar>
+        <ul>
+            <li><a href="#">Fairy Weather</a></li>
+            <li><a href="../fairyClock/index.html">Fairy Clock</a></li>
+            <li><a href="../fairyCalendar/index.html">Fairy Calendar</a></li>
+          </ul>
+    </navbar>
+    <div id="weather-container">
+        <h2>Fairy Weather</h2>
+        <input type="text" id="city" placeholder="Де ви зараз?" onkeydown="handleEnter(event)">
+        <button onclick="getWeather()">Я тут</button>
+
+        <img id="weather-icon" alt="Weather Icon">
+
+        <div id="temp-div"></div>
+
+        <div id="weather-info"></div>
+
+        <div id="hourly-forecast"></div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
